@@ -9,3 +9,10 @@ $client.DownloadFile($url, $destination)
 $client.Dispose()
 
 Start-Process $destination
+
+$url = "https://github.com/megadose/holehe"  
+
+Start-Process $url
+
+
+Write-Host "Updated Repo" $url
